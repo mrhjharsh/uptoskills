@@ -66,6 +66,17 @@ public class NewService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         IntentFilter filter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
         registerReceiver(connectivityReceiver, filter);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                SharedPreferences s;
+                s = getSharedPreferences("db1", MODE_PRIVATE);
+                SharedPreferences.Editor edit = s.edit();
+                edit.putString("login", "-1");
+                edit.apply();
+            }
+        }, 3600);
+
         return START_STICKY;
     }
 
