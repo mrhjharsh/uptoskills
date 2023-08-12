@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/trainer"
+            android:icon="@drawable/baseline_laptop_chromebook_24"
+            android:title="Become a Trainer" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help_center"
+            android:title="Help Center" />
+
+        <item
+            android:id="@+id/privatepolicy"
+            android:icon="@drawable/ic_privacy_policy"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/termandcondition"
+            android:icon="@drawable/ic_terms"
+            android:title="Terms and Conditions" />
+        <item
+            android:id="@+id/refund"
+            android:icon="@drawable/ic_rewards"
+            android:title="Refund and Cancellation Policy" />
+        <item
+            android:id="@+id/resume"
+            android:icon="@drawable/baseline_insert_drive_file_24"
+            android:title="Resume Builder" />
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/ic_log_out"
+            android:title="LogOut" />
+    </group>
+</menu>

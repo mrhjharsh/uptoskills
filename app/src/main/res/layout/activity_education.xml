@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/course"
+    android:layout_width="wrap_content"
+    android:layout_marginStart="@dimen/dim_10"
+    android:layout_marginEnd="5dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    >
+    <TextView
+        android:id="@+id/n1"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:background="#EAE7E5"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dim_15"
+        android:text="Angel abode public school"
+        android:maxLines="2"
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="@dimen/dim_30"
+        android:id="@+id/n2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:maxLines="2"
+        android:text="12th tikamgarh 2023-06-28 2023-07-07"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dim_15">
+
+    </TextView>
+
+
+</RelativeLayout>

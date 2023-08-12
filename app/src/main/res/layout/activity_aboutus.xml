@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutus">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_gravity="bottom"
+                android:src="@drawable/baseline_keyboard_arrow_left_24"
+                android:layout_marginBottom="@dimen/dim_20"
+                android:layout_width="@dimen/dim_30"
+                android:layout_height="@dimen/dim_50">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/uptoskills_logo"
+                android:layout_marginBottom="@dimen/dim_20"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dim_50">
+            </ImageView>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/dim_9"
+            android:layout_marginTop="@dimen/dim_130"
+            android:text="   ABOUT US"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/dividerTextView"
+            android:textColor="#595555"
+            android:layout_marginLeft="@dimen/dim_10"
+            android:layout_marginTop="@dimen/dim_130"
+            android:text="|"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/headingTextView"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="@dimen/dim_20"
+            android:layout_marginLeft="@dimen/dim_10"
+            android:layout_marginTop="@dimen/dim_160"
+            android:text="Upgrade Your Skills,\nUpgrade Your Career!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_marginLeft="@dimen/dim_10"
+            android:layout_marginTop="@dimen/dim_230"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="“Welcome to Uptoskills, the leading Skill Tech platform designed to help individuals and organizations succeed in the digital age. We offer a wide range of customized training programs designed to enhance skills and advance careers, and our expert trainers and career advisors work closely with clients to provide ongoing support and guidance.”"/>
+
+        <ImageView
+            android:id="@+id/image1ImageView"
+            android:layout_below="@id/descriptionTextView"
+            android:src="@drawable/sathsath"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_200"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/image2ImageView"
+            android:layout_below="@id/image1ImageView"
+            android:src="@drawable/d1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_200"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/image3ImageView"
+            android:layout_below="@id/image2ImageView"
+            android:src="@drawable/d2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_200"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/image4ImageView"
+            android:layout_below="@id/image3ImageView"
+            android:src="@drawable/d3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_200"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/image5ImageView"
+            android:layout_below="@id/image4ImageView"
+            android:src="@drawable/d4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_200"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/missionTitleTextView"
+            android:textColor="@color/orange"
+            android:layout_marginLeft="@dimen/dim_9"
+            android:layout_marginTop="@dimen/dim_1370"
+            android:text="   OUR MISSION"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/missionDividerTextView"
+            android:textColor="#595555"
+            android:layout_marginLeft="@dimen/dim_10"
+            android:layout_marginTop="@dimen/dim_1370"
+            android:text="|"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/missionHeadingTextView"
+            android:textColor="#090606"
+            android:layout_marginLeft="@dimen/dim_10"
+            android:layout_marginTop="@dimen/dim_1400"
+            android:text="At What We Believe"
+            android:textStyle="bold"
+            android:textSize="@dimen/dim_30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/missionDescriptionTextView"
+            android:textColor="#090606"
+            android:layout_marginLeft="@dimen/dim_10"
+            android:layout_marginTop="@dimen/dim_1450"
+            android:text="Our mission is to create a positive impact by providing innovative and industry-relevant training programs that unlock new opportunities and empower individuals to succeed in the fast-paced job market."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/image6ImageView"
+            android:layout_below="@id/missionDescriptionTextView"
+            android:src="@drawable/d6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_200"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/image7ImageView"
+            android:layout_below="@id/image6ImageView"
+            android:src="@drawable/d7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_200"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/testimonialsTextView"
+            android:gravity="center"
+            android:textColor="@color/orange"
+            android:layout_marginLeft="@dimen/dim_150"
+            android:layout_marginTop="2000dp"
+            android:text="TESTIMONIALS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_below="@id/testimonialsTextView"
+            android:layout_width="match_parent"
+            android:backgroundTint="#302F2E"
+            android:layout_height="@dimen/dim_300"
+            android:layout_marginTop="@dimen/dim_20"
+            app:cardBackgroundColor="@color/orange"
+            app:cardCornerRadius="4dp">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/dim_350"
+                android:layout_height="@dimen/dim_250"
+                app:iss_auto_cycle="true"
+                app:iss_period="1000"
+                app:iss_delay="1000"
+                app:iss_text_align="CENTER"/>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.uptoskills.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.uptoskills.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.uptoskills.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/faq"
+        android:name="com.example.uptoskills.ui.FAQ.FAQfragment"
+        android:label="FAQ"
+        tools:layout="@layout/faq_activity" />
+    <fragment
+        android:id="@+id/termandcondition"
+        android:name="com.example.uptoskills.ui.termandcondition.termandcondition"
+        android:label="Term and Conditions"
+        tools:layout="@layout/termandcondition" />
+    <fragment
+        android:id="@+id/privatepolicy"
+        android:name="com.example.uptoskills.ui.privatepolicy.privatepolicy"
+        android:label="Private Policy"
+        tools:layout="@layout/privatepolicy" />
+    <fragment
+        android:id="@+id/signout"
+        android:name="com.example.uptoskills.ui.signout.signout"
+        android:label="LogOut"
+        tools:layout="@layout/signout" />
+    <fragment
+        android:id="@+id/help"
+        android:name="com.example.uptoskills.ui.helpcenter.helpcenter"
+        android:label="Help Center"
+        tools:layout="@layout/helpcenter" />
+    <fragment
+        android:id="@+id/refund"
+        android:name="com.example.uptoskills.ui.refund.refund"
+        android:label="Refund and Cancellation Policy"
+        tools:layout="@layout/refund" />
+    <fragment
+        android:id="@+id/trainer"
+        android:name="com.example.uptoskills.ui.trainer.trainer"
+        android:label="Become a Trainer"
+        tools:layout="@layout/activity_becometrainer" />
+    <fragment
+        android:id="@+id/resume"
+        android:name="com.example.uptoskills.ui.resumeui.resumebuilder"
+        android:label="Resume Builder"
+        tools:layout="@layout/activity_resumebuilder" />
+</navigation>

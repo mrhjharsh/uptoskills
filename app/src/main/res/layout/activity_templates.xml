@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.signout.templates">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_gravity="bottom"
+                android:src="@drawable/baseline_keyboard_arrow_left_24"
+                android:layout_marginBottom="@dimen/dim_20"
+                android:layout_width="@dimen/dim_30"
+                android:layout_height="@dimen/dim_50">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/uptoskills_logo"
+                android:layout_marginBottom="@dimen/dim_20"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dim_50">
+            </ImageView>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:text="CHOOSE TEMPLATE"
+
+            android:layout_marginTop="@dimen/dim_20"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/dim_20"
+            android:layout_gravity="center"
+            android:textSize="@dimen/dim_30"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <ImageView
+            android:id="@+id/t1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/customborder2"
+
+            android:layout_marginBottom="@dimen/dim_20"
+
+            android:src="@drawable/resume_template"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_200">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/t2"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/customborder2"
+
+            android:layout_marginBottom="@dimen/dim_20"
+
+            android:src="@drawable/t2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_200">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/t3"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/customborder2"
+
+            android:src="@drawable/t3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_200">
+
+        </ImageView>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

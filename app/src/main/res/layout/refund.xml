@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.refund.refund">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="@dimen/dim_70"
+                android:id="@+id/policy"
+                android:text="@string/rf"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_gravity="bottom"
+                    android:src="@drawable/baseline_keyboard_arrow_left_24"
+                    android:layout_marginBottom="@dimen/dim_20"
+                    android:layout_width="@dimen/dim_30"
+                    android:layout_height="@dimen/dim_50">
+                </ImageView>
+
+                <ImageView
+                    android:src="@drawable/uptoskills_logo"
+                    android:layout_marginBottom="@dimen/dim_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dim_50">
+                </ImageView>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jobview">
+    <RelativeLayout
+        android:background="@drawable/jobviewback"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_150">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_marginTop="@dimen/dim_20"
+            android:layout_gravity="bottom"
+            android:src="@drawable/baseline_keyboard_arrow_left_24white"
+            android:layout_marginBottom="@dimen/dim_20"
+            android:layout_width="@dimen/dim_30"
+            android:layout_height="@dimen/dim_50">
+        </ImageView>
+<TextView
+    android:textColor="@color/white"
+    android:layout_marginTop="@dimen/dim_30"
+    android:layout_marginLeft="@dimen/dim_45"
+    android:textSize="20sp"
+    android:text="BY UPTOSKILLS"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+</TextView>
+
+<TextView
+    android:id="@+id/jobname"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:layout_marginTop="@dimen/dim_70"
+    android:layout_marginLeft="@dimen/dim_15"
+    android:textSize="30sp"
+    android:maxLines="2"
+    android:text="College Cordinator"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+</TextView>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_marginTop="@dimen/dim_150"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_250">
+            <TextView
+                android:layout_marginBottom="@dimen/dim_10"
+                android:id="@+id/loca"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:layout_marginTop="@dimen/dim_10"
+                android:text=" Delhi"
+                android:drawableLeft="@drawable/baseline_place_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:id="@+id/post"
+                android:textSize="20sp"
+                android:layout_marginTop="@dimen/dim_45"
+                android:layout_marginStart="10dp"
+
+                android:text=" Posted 2 days ago"
+                android:layout_marginBottom="@dimen/dim_10"
+
+                android:drawableLeft="@drawable/baseline_calendar_month_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:id="@+id/sala"
+                android:textSize="20sp"
+                android:layout_marginTop="@dimen/dim_80"
+                android:text=" 10000 INR / Month"
+                android:layout_marginBottom="@dimen/dim_10"
+                android:layout_marginStart="10dp"
+
+                android:drawableLeft="@drawable/baseline_business_center_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/maintext"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+
+                android:textSize="20sp"
+                android:layout_marginTop="@dimen/dim_140"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/app"
+                android:backgroundTint="#09EDB8"
+                android:text="Apply for job"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/dim_115"
+                android:layout_width="@dimen/dim_170"
+                android:layout_height="@dimen/dim_50"
+                >
+            </Button>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

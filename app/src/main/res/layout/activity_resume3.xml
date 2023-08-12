@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/t3"
+    tools:context=".ui.signout.resume3">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/dim_23"
+            android:layout_width="@dimen/dim_150"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_96"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/avtar"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dim_20"
+                android:textColor="@color/white"
+                android:text="ABOUT"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:id="@+id/about"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/dim_5"
+                android:textSize="@dimen/dim_13"
+                android:textColor="@color/white"
+                android:text="Analytical and detail oriented Android app developer professional with stellar communication skills. Adept at bringing all team members together to reach a common goal on time. Committed to viable and easily functional app solutions for clients."
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dim_20"
+                android:textColor="@color/white"
+                android:text="CONTACT ME"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/baseline_local_phone_24"
+                android:maxLines="2"
+                android:text="+919993019161"
+                android:textColor="@color/fade_white"
+                android:textSize="@dimen/dim_15">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:maxLines="3"
+                android:text="hj9993019161gmail.com"
+                android:textColor="@color/fade_white"
+                android:textSize="@dimen/dim_15">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:drawableLeft="@drawable/baseline_location_on_24"
+                android:maxLines="2"
+                android:text="near gandhi chok, near kotwali"
+                android:textColor="@color/fade_white"
+                android:textSize="@dimen/dim_15">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="@dimen/dim_15"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dim_20"
+                android:textColor="@color/fade_white"
+                android:text="SKILLS"
+                android:textStyle="bold"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/dim_180"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/name"
+                android:maxLines="2"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/dim_100"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dim_30"
+                android:textColor="@color/black"
+                android:text="HARSH JAIN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:id="@+id/profession"
+                android:maxLines="2"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dim_15"
+                android:textColor="@color/black"
+                android:text="ANDROID DEVELOPER"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:drawableLeft="@drawable/t3c"
+                android:textStyle="bold"
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dim_20"
+                android:textColor="@color/black"
+                android:text="   ACHIEVEMENTS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/archivement_list"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dim_20"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/t3c"
+
+                android:textColor="@color/black"
+                android:text="   EDUCATIONS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/education_list"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
+            <TextView
+                android:drawableLeft="@drawable/t3c"
+
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dim_20"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="   EXPERIENCES"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/experience_list"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dim_20"
+                android:drawableLeft="@drawable/t3c"
+
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="   PROJECTS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/project_list"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

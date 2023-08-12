@@ -1,0 +1,245 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/faqContainer"
+    android:layout_marginTop="@dimen/dim_10"
+
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_gravity="bottom"
+                android:src="@drawable/baseline_keyboard_arrow_left_24"
+                android:layout_marginBottom="@dimen/dim_20"
+                android:layout_width="@dimen/dim_30"
+                android:layout_height="@dimen/dim_50">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/uptoskills_logo"
+                android:layout_marginBottom="@dimen/dim_20"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dim_50">
+            </ImageView>
+
+        </LinearLayout>
+
+
+        <ImageView
+        android:src="@drawable/faa"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:layout_marginBottom="@dimen/dim_20"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+
+    <!-- Question -->
+    <TextView
+        android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+
+        android:textColor="@color/black"
+        android:background="@color/green"
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Answer -->
+    <TextView
+        android:id="@+id/answerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a1" android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:textSize="16sp"
+        android:visibility="gone" />
+    <!-- Question -->
+    <TextView
+        android:id="@+id/questionTextView2"
+        android:layout_width="match_parent"        android:textColor="@color/black"
+
+        android:layout_height="wrap_content"        android:background="@color/green"
+
+        android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Answer -->
+    <TextView
+        android:id="@+id/answerTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a2" android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:textSize="16sp"
+        android:visibility="gone" />    <!-- Question -->
+    <TextView
+        android:id="@+id/questionTextView3"
+        android:layout_width="match_parent"        android:background="@color/green"
+
+        android:layout_marginStart="@dimen/dim_10"        android:textColor="@color/black"
+
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Answer -->
+    <TextView
+        android:id="@+id/answerTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a2" android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/questionTextView4"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/dim_10"        android:background="@color/green"
+
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:layout_height="wrap_content"        android:textColor="@color/black"
+
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Answer -->
+    <TextView
+        android:id="@+id/answerTextView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a2" android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:textSize="16sp"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/questionTextView5"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"        android:background="@color/green"
+
+        android:layout_marginTop="@dimen/dim_10"
+        android:layout_height="wrap_content"        android:textColor="@color/black"
+
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Answer -->
+    <TextView
+        android:id="@+id/answerTextView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a2"
+        android:textSize="16sp" android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/questionTextView6"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:layout_height="wrap_content"        android:background="@color/green"
+
+        android:text=""        android:textColor="@color/black"
+
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Answer -->
+    <TextView
+        android:id="@+id/answerTextView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a2"
+        android:textSize="16sp" android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/questionTextView7"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:layout_height="wrap_content"
+        android:text=""        android:background="@color/green"
+        android:textColor="@color/black"
+
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Answer -->
+    <TextView
+        android:id="@+id/answerTextView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a2"
+        android:textSize="16sp" android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/questionTextView8"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:layout_height="wrap_content"        android:background="@color/green"
+        android:textColor="@color/black"
+
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Answer -->
+    <TextView
+        android:id="@+id/answerTextView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a2" android:layout_marginStart="@dimen/dim_10"
+        android:layout_marginEnd="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:textSize="16sp"
+        android:visibility="gone" />
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

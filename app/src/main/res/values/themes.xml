@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+
+
+
+
+
+
+    
+    <style name="Base.Theme.Uptoskills" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Uptoskills" parent="Base.Theme.Uptoskills" />
+
+    <style name="Theme.Uptoskills.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Uptoskills.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Uptoskills.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

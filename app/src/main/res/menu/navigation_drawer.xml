@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_main">
+        <item
+            android:id="@+id/menu_terms"
+            android:title="Terms &amp; Conditions" />
+        <item
+            android:id="@+id/menu_privacy"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/menu_sign_out"
+            android:title="Sign Out" />
+        <item
+            android:id="@+id/menu_refund"
+            android:title="Refund &amp; Cancellation Policy" />
+        <item
+            android:id="@+id/menu_help"
+            android:title="Help Center" />
+        <item
+            android:id="@+id/menu_sitemap"
+            android:title="Sitemap" />
+    </group>
+</menu>

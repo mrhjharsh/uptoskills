@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/helpbg"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_gravity="bottom"
+            android:src="@drawable/baseline_keyboard_arrow_left_24white"
+            android:layout_marginBottom="@dimen/dim_20"
+            android:layout_width="@dimen/dim_30"
+            android:layout_height="@dimen/dim_50">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/uptoskills_logo"
+            android:layout_marginBottom="@dimen/dim_20"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dim_50">
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/address"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/dim_150"
+        android:layout_marginLeft="@dimen/dim_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_marginTop="@dimen/dim_20"
+        android:textSize="20sp"
+        android:layout_marginLeft="@dimen/dim_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: info@uptoskills.com" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_marginTop="@dimen/dim_20"
+        android:textSize="20sp"
+        android:layout_marginLeft="@dimen/dim_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: +91-9319772294" />
+    <LinearLayout
+        android:layout_marginTop="@dimen/dim_50"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/dim_45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/v1"
+            android:src="@drawable/v1"
+            android:layout_width="@dimen/dim_50"
+            android:layout_height="@dimen/dim_50" />
+        <ImageView
+            android:src="@drawable/v2"
+            android:id="@+id/v2"
+
+            android:layout_width="@dimen/dim_50"
+            android:layout_height="@dimen/dim_50" />
+        <ImageView
+            android:src="@drawable/v3"
+            android:id="@+id/v3"
+
+            android:layout_width="@dimen/dim_50"
+            android:layout_height="@dimen/dim_50" />
+        <ImageView
+            android:src="@drawable/v4"
+            android:id="@+id/v4"
+
+            android:layout_width="@dimen/dim_50"
+            android:layout_height="@dimen/dim_50" />
+        <ImageView
+            android:src="@drawable/v5"
+            android:id="@+id/v5"
+
+            android:layout_width="@dimen/dim_50"
+            android:layout_height="@dimen/dim_50" />
+        <ImageView
+            android:src="@drawable/v6"
+            android:id="@+id/v6"
+
+            android:layout_width="@dimen/dim_50"
+            android:layout_height="@dimen/dim_50" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

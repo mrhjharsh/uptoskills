@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/resume_template"
+    tools:context=".ui.signout.resume">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ss"
+        android:layout_width="@dimen/dim_175"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/avtar"
+            android:layout_gravity="center"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+        <TextView
+            android:id="@+id/name"
+            android:maxLines="2"
+
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/dim_20"
+            android:textColor="@color/white"
+            android:text="HARSH JAIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="@dimen/dim_15"
+            android:textColor="@color/white"
+            android:text="________"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/profession"
+            android:maxLines="2"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/dim_15"
+            android:textColor="@color/white"
+            android:text="ANDROID DEVELOPER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/dim_20"
+            android:textColor="@color/black"
+            android:text="ABOUT"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:maxLines="2"
+            android:id="@+id/phone"
+
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/dim_15"
+            android:textColor="@color/white"
+            android:text="+91 9993019161"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_marginStart="@dimen/dim_5"
+            android:id="@+id/email"
+            android:layout_marginEnd="5dp"
+            android:maxLines="3"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/dim_15"
+            android:textColor="@color/white"
+            android:text="hj9993019161gmail.com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_marginEnd="5dp"
+            android:maxLines="2"
+            android:id="@+id/address"
+
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dim_5"
+            android:textSize="@dimen/dim_15"
+            android:textColor="@color/white"
+            android:text="near gandhi chok, near kotwali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/about"
+
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dim_5"
+            android:textSize="@dimen/dim_13"
+            android:textColor="@color/white"
+            android:text="Analytical and detail oriented Android app developer professional with stellar communication skills. Adept at bringing all team members together to reach a common goal on time. Committed to viable and easily functional app solutions for clients."
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/dim_20"
+            android:textColor="@color/black"
+            android:text="SKILLS"
+            android:textStyle="bold"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.recyclerview.widget.RecyclerView>
+        <!-- Add your content here -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/dim_235"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0"
+        android:layout_marginLeft="@dimen/dim_175">
+
+        <!-- Add your content here -->
+        <TextView
+            android:textStyle="bold"
+
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/dim_20"
+            android:textColor="@color/black"
+            android:text="ACHIEVEMENTS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/archivement_list"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.recyclerview.widget.RecyclerView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/dim_20"
+            android:textStyle="bold"
+
+            android:textColor="@color/black"
+            android:text="EDUCATIONS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/education_list"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.recyclerview.widget.RecyclerView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/dim_20"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="EXPERIENCES"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/experience_list"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.recyclerview.widget.RecyclerView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/dim_20"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="PROJECTS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/project_list"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

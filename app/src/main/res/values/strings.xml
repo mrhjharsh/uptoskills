@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">UptoSkills</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">1262416964212805</string>
+    <string name="fb_login_protocol_scheme">fb1262416964212805</string>
+    <string name="razorpay_api_key">rzp_test_oLqKrYVjxIjTTh</string>
+    <string name="terms_of_use">Effective: April 1, 2021. Thank you for using UptoSkills! Services, you agree to be bound by these Terms, including the policies referenced in these Terms. UptoSkills offers products and services provided by UptoSkills,, our subsidiaries, and our international branches ("UptoSkills," "us," "we," or "our"). These Terms of Use ("Terms") govern your use of our website, apps, and other products and services ("Services"). As some of our Services may be software that is downloaded to your computer, phone, tablet, or other device, you agree that we may automatically update this software, and that these Terms will apply to such updates. Please read these Terms carefully, and contact us if you have any questions. By using our THESE TERMS INCLUDE AN ARBITRATION AGREEMENT AND CLASS ACTION WAIVER THAT APPLY TO ALL CLAIMS BROUGHT AGAINST UPTOSKILLS. PLEASE READ THEM CAREFULLY; THEY AFFECT YOUR LEGAL RIGHTS.</string>
+    <string name="using_uptoskills">Who May Use our Services You may use our Services only if you can form a binding contract with UptoSkills, and only in compliance with these Terms and all applicable laws. When you create your UptoSkills account, and subsequently when you use certain features, you must provide us with accurate and complete information, and you agree to update your information to keep it accurate and complete. Any use or access by anyone under the age of 13 is prohibited, and certain regions and Content Offerings may have additional requirements and/or restrictions.</string>
+    <string name="who_may_use">You may use our Services only if you can form a binding contract with UptoSkills, and only in compliance with these Terms and all applicable laws. When you create your UptoSkills account, and subsequently when you use certain features, you must provide us with accurate and complete information, and you agree to update your information to keep it accurate and complete. Any use or access by anyone under the age of 13 is prohibited, and certain regions and Content Offerings may have additional requirements and/or restrictions.</string>
+    <string name="licence">Subject to these Terms and our policies (including the Acceptable Use Policy, Honor Code, course-specific eligibility requirements, and other terms), we grant you a limited, personal, non-exclusive, non-transferable, and revocable license to use our Services. You may download content from our Services only for your personal, non-commercial use, unless you obtain our written permission to otherwise use the content. You also agree that you will create, access, and/or use only one user account, unless expressly permitted by UptoSkills, and you will not share access to your account or access information for your account with any third party. Using our Services does not give you ownership of or any intellectual property rights in our Services or the content you access.</string>
+    <string name="content_offering">UptoSkills offers courses and content ("Content Offerings") from universities and other providers ("Content Providers"). While we seek to provide world-class Content Offerings from our Content Providers, unexpected events do occur. UptoSkills reserves the right to cancel, interrupt, reschedule, or modify any Content Offerings, or change the point value or weight of any assignment, quiz, or other assessment, either solely, or in accordance with Content Provider instructions. Content Offerings are subject to the Disclaimers and Limitation of Liability sections below.</string>
+    <string name="paid_services">UptoSkills offers paid Services (e.g., course certificates for certain courses) for a fee. Unless otherwise stated, all fees are quoted in Indian Rupees. You are responsible for paying all fees charged by or for UptoSkills and applicable taxes in a timely manner with a payment mechanism associated with the applicable paid Services. If your payment method fails or your account is past due, we may collect fees using other collection mechanisms. Fees may vary based on your location and other factors, and UptoSkills reserves the right to change any fees at any time at its sole discretion. Any change, update, or modification will be effective immediately upon posting through the relevant Services. Refunds may be available for paid Services as described in our Refund Policy below.</string>
+    <string name="disclaimers">THE SERVICES AND ALL INCLUDED CONTENT ARE PROVIDED ON AN "AS IS" BASIS WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED. THE UPTOSKILLS PARTIES SPECIFICALLY DISCLAIM ANY AND ALL WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE. THE UptoSkills PARTIES FURTHER DISCLAIM ANY AND ALL LIABILITY RELATED TO YOUR ACCESS OR USE OF THE SERVICES OR ANY RELATED CONTENT. YOU ACKNOWLEDGE AND AGREE THAT ANY ACCESS TO OR USE OF THE SERVICES OR SUCH CONTENT IS AT YOUR OWN RISK.UptoSkills also respects the trademark rights of others. Accounts with any other content that misleads others or violates another"s trademark may be updated, suspended, disabled, or terminated by UptoSkills in its sole discretion. If you are concerned that someone may be using your trademark without proper permission on our Services, please email us at info@UptoSkills.com, and we will review your submission. If we deem appropriate, we may remove the offending content, warn the individual who posted the content, and/or temporarily or permanently suspend or disable the individual’s account.</string>
+    <string name="other_paid_services">Except as described in this Refund Policy or as explicitly stated as part of the sign-up process for a Service, UptoSkills has no obligation to provide refunds or vouchers for any other Services.</string>
+    <string name="third_party_marketPlaces">Notwithstanding the foregoing, if you purchase or subscribe for a course, specialization, guided project, or purchase any other paid Service, through a third party marketplace (e.g., in-app purchases through the Apple App Store or purchases made through certain alternative payment services), the refund policy applicable to that third party marketplace will apply, unless otherwise explicitly stated by UptoSkills. Except as otherwise explicitly stated by UptoSkills, the third party marketplace will be solely responsible for making refunds under its refund policy, and UptoSkills will have no refund obligations. UptoSkills disclaims any responsibility or liability related to any third party marketplace"s refund policy or the third party"s compliance or noncompliance with such policy. Honor Code Effective as of April 1, 2021 All users participating in Content Offerings must agree to abide by the following code: I will register for only one account, unless expressly permitted to register for additional accounts by UptoSkills. My answers to homework, quizzes, exams, projects, and other assignments will be my own work (except for assignments that explicitly permit collaboration) as specified in the UptoSkills Plagiarism Policy. I will not make solutions to homework, quizzes, exams, projects, and other assignments available to anyone else (except to the extent an assignment explicitly permits sharing solutions). This includes both solutions written by me, as well as any solutions provided by the course staff or others. I will not engage in any other activities that will dishonestly improve my results or dishonestly improve or hurt the results of others. Any violation of this code may result in your access to all or part of the Services being suspended, disabled, or terminated. © 2021 UptoSkills All rights reserved</string>
+    <string name="create_account">Create Your Account</string>
+    <string name="login">Login</string>
+    <string name="email_id">Email Id</string>
+    <string name="forget_pass">Forgot Password?</string>
+    <string name="razorpay_secret_key">47e4PYyqaDkc4C6KOvTwaRnd</string>
+    <string name="default_web_client_id">938352423195-qs3p5n89a8vuhqi50as9eubgsk8rltuu.apps.googleusercontent.com</string>
+    <string name="view_more"><u>View More +</u>.</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="rf"><b>Returns</b>\n
+Our policy lasts 7 days. If 7 days have gone by since your purchase, unfortunately, we can’t offer you a refund or exchange.
+
+To be eligible for a return, your item must be unused and in the same condition that you received it. It must also be in the original packaging.
+
+Several types of goods are exempt from being returned as mentioned during the purchasing process. We also do not accept returns on digital downloadable products.
+
+\n<b>Additional non-returnable items:</b>\n
+Gift vouchers
+Digital content or subscriptions
+Some customized or personalized items
+To complete your return, we require a receipt or proof of purchase.
+
+Please do not send your purchase back to the manufacturer.
+
+\n<b>Partial Refunds</b>\n
+There are certain situations where only partial refunds are granted (if applicable):
+
+Any item not in its original condition, is damaged, or missing parts for reasons not due to our error
+Refunds
+
+Once your return is received and inspected, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund.
+
+If you are approved, then your refund will be processed, and a credit will automatically be applied to your original method of payment, within a certain amount of days.
+
+\n<b>Late or Missing Refunds</b>\n
+If you haven’t received a refund yet, first check your bank account again. Then contact your credit card company, as it may take some time before your refund is officially posted. Next, contact your bank. There is often some processing time before a refund is posted.
+
+If you’ve done all of this and you still have not received your refund, please contact us at info@uptoskills.com.
+
+\n<b>Exchanges</b>\n
+We only replace items if they are defective or damaged. If you need to exchange it for the same item, send us an email at info@uptoskills.com.
+
+\n<b>Cancellation</b>\n
+If you wish to cancel your order, please contact us as soon as possible at info@uptoskills.com. We will do our best to accommodate your request, but please note that orders may be processed and shipped quickly. If your order has already been processed or shipped, we will be unable to cancel it.
+
+\n<b>Shipping</b>\n
+To return your product, you should mail your product to the address provided in the return instructions.
+
+You will be responsible for paying for your own shipping costs for returning your item. Shipping costs are non-refundable. If you receive a refund, the cost of return shipping will be deducted from your refund.
+
+Depending on where you live, the time it may take for your exchanged product to reach you may vary.
+
+If you are shipping an item over ₹50, you should consider using a trackable shipping service or purchasing shipping insurance. We don’t guarantee that we will receive your returned item.</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="title_activity_navbar">navbar</string>
+    <string name="pp"><b>SECTION 1 – WHAT DO WE DO WITH YOUR INFORMATION?</b>\n
+When you purchase something from our store, as part of the buying and selling process, we collect the personal information you give us such as your name, address, and email address.
+
+When you browse our store, we also automatically receive your computer’s internet protocol (IP) address to provide us with information that helps us learn about your browser and operating system.
+
+Email marketing (if applicable): With your permission, we may send you emails about our store, new products, and other updates.
+
+\n<b>SECTION 2 – CONSENT
+How do you get my consent?</b>\n
+When you provide us with personal information to complete a transaction, verify your credit card, place an order, arrange for a delivery, or return a purchase, we imply that you consent to our collecting it and using it for that specific reason only.
+
+If we ask for your personal information for a secondary reason, like marketing, we will either ask you directly for your expressed consent or provide you with an opportunity to say no.
+
+How do I withdraw my consent?
+If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use, or disclosure of your information, at any time, by contacting us at Palam, New Delhi, Delhi 110077 or mailing us at: info@uptoskills.com
+
+\n<b>SECTION 3 – DISCLOSURE</b>\n
+We may disclose your personal information if we are required by law to do so or if you violate our Terms of Service.
+
+\n<b>SECTION 4 – PAYMENT</b>\n
+We use Razorpay for processing payments. We/Razorpay do not store your card data on their servers. The data is encrypted through the Payment Card Industry Data Security Standard (PCI-DSS) when processing payment. Your purchase transaction data is only used as long as necessary to complete your purchase transaction. After that is complete, your purchase transaction information is not saved.
+
+Our payment gateway adheres to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, MasterCard, American Express, and Discover.
+
+PCI-DSS requirements help ensure the secure handling of credit card information by our store and its service providers.
+
+For more insight, you may also want to read the terms and conditions of Razorpay on https://razorpay.com
+
+\n<b>SECTION 5 – THIRD-PARTY SERVICES</b>\n
+In general, the third-party providers used by us will only collect, use, and disclose your information to the extent necessary to allow them to perform the services they provide to us.
+
+However, certain third-party service providers, such as payment gateways and other payment transaction processors, have their own privacy policies regarding the information we are required to provide to them for your purchase-related transactions.
+
+For these providers, we recommend that you read their privacy policies so you can understand the manner in which your personal information will be handled by these providers.
+
+In particular, remember that certain providers may be located in or have facilities located in a different jurisdiction than either you or us. So if you choose to proceed with a transaction that involves the services of a third-party service provider, then your information may become subject to the laws of the jurisdiction(s) in which that service provider or its facilities are located.
+
+Once you leave our store’s website or are redirected to a third-party website or application, you are no longer governed by this Privacy Policy or our website’s Terms of Service.
+
+Links
+When you click on links on our store, they may direct you away from our site. We are not responsible for the privacy practices of other sites and encourage you to read their privacy statements.
+
+\n<b>SECTION 6 – SECURITY</b>\n
+To protect your personal information, we take reasonable precautions and follow industry best practices to make sure it is not inappropriately lost, misused, accessed, disclosed, altered, or destroyed.
+
+\n<b>SECTION 7 – COOKIES</b>\n
+We use cookies to maintain the session of your user. They are not used to personally identify you on other websites.
+
+\n<b>SECTION 8 – AGE OF CONSENT</b>\n
+By using this site, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.
+
+\n<b>SECTION 9 – CHANGES TO THIS PRIVACY POLICY</b>\n
+We reserve the right to modify this privacy policy at any time, so please review it frequently. Changes and clarifications will take effect immediately upon their posting on the website. If we make material changes to this policy, we will notify you here that it has been updated, so that you are aware of what information we collect, how we use it, and under what circumstances, if any, we use and/or disclose it.
+
+If our store is acquired or merged with another company, your information may be transferred to the new owners so that we may continue to sell products to you.
+
+\n<b>QUESTIONS AND CONTACT INFORMATION</b>\n
+If you would like to access, correct, amend, or delete any personal information we have about you, register a complaint, or simply want more information, contact us at info@uptoskills.com</string>
+    <string name="address">Address: Palam, New Delhi, Delhi 110077</string>
+
+
+</resources>

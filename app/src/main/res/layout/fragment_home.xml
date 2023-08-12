@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/uptoskillshome">
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/option"
+                        android:layout_width="@dimen/dim_35"
+                        android:layout_height="@dimen/dim_35"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_menu" />
+
+                    <ImageView
+                        android:layout_width="350dp"
+                        android:layout_height="61dp"
+                        android:src="@drawable/uptoskills_logo"></ImageView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20sp">
+
+                </TextView>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dim_10"
+                        android:text="|"
+                        android:textColor="@color/orange">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  SKILLS FOR LIFETIME!"
+                        android:textColor="#04816F">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30sp">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dim_10"
+                    android:text="India's No.1 Skill \nTech Organization!"
+                    android:textColor="#DA0707"
+                    android:textSize="@dimen/dim_20">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dim_10"
+                    android:text="Empowering Your Career with uptoskill: Free\nTraining Courses for a Bright Future"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/dim_20">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30sp">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/training"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dim_10"
+                        android:backgroundTint="@color/green"
+                        android:text="View Training">
+
+                    </Button>
+
+                    <ImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/play"
+                        android:layout_width="@dimen/dim_50"
+                        android:layout_height="@dimen/dim_50"
+                        android:layout_marginLeft="@dimen/dim_20"
+                        android:src="@drawable/baseline_play_circle_outline_24"
+                        app:civ_border_color="#FF000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dim_20"
+                        android:text="How it works ?"
+                        android:textColor="@color/fade_white"
+                        android:textSize="@dimen/dim_20"></TextView>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30sp">
+
+                </TextView>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/green"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dim_190"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/t1"
+                            android:layout_width="@dimen/dim_100"
+                            android:layout_height="@dimen/dim_100"
+                            android:layout_marginStart="@dimen/dim_10"
+                            android:src="@drawable/c1"></ImageView>
+
+                        <TextView
+                            android:id="@+id/t2"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dim_10"
+                            android:layout_marginLeft="@dimen/dim_10"
+                            android:text="Trainings"
+                            android:textColor="@color/white"></TextView>
+
+                        <TextView
+                            android:id="@+id/t3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dim_10"
+                            android:layout_marginRight="5dp"
+
+                            android:maxWidth="@dimen/dim_200"
+                            android:text="Transform your career with our comprehensive and industry-focused training programs."
+                            android:textColor="@color/white"></TextView>
+
+                        <TextView
+                            android:id="@+id/t4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dim_10"
+                            android:layout_marginLeft="@dimen/dim_10"
+                            android:text="@string/view_more"
+                            android:textColor="@color/white"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dim_190"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/dim_100"
+                            android:layout_height="@dimen/dim_100"
+                            android:src="@drawable/c1recuit"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Recruitment"
+                            android:textColor="@color/white"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:text="Find the right talent for your business with our tailored and data-driven recruitment solutions."
+                            android:textColor="@color/white"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/view_more"
+                            android:textColor="@color/white"></TextView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/green"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dim_190"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/dim_100"
+                            android:layout_height="@dimen/dim_100"
+                            android:layout_marginStart="@dimen/dim_10"
+                            android:src="@drawable/c1intern"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dim_10"
+                            android:layout_marginLeft="@dimen/dim_10"
+                            android:text="Internships"
+                            android:textColor="@color/white"></TextView>
+
+                        <TextView
+                            android:id="@+id/sc3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dim_10"
+                            android:layout_marginLeft="@dimen/dim_10"
+                            android:layout_marginRight="5dp"
+                            android:maxWidth="@dimen/dim_200"
+                            android:text="Kick-start your career with our industry-focused internship programs, designed to give valuable skills."
+                            android:textColor="@color/white"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dim_10"
+                            android:layout_marginLeft="@dimen/dim_10"
+                            android:text="@string/view_more"
+                            android:textColor="@color/white"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dim_190"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/sc1"
+                            android:layout_width="@dimen/dim_100"
+                            android:layout_height="@dimen/dim_100"
+                            android:layout_marginStart="@dimen/dim_10"
+                            android:src="@drawable/c1"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dim_10"
+                            android:layout_marginLeft="@dimen/dim_10"
+                            android:text="Degree Programs"
+                            android:textColor="@color/white"></TextView>
+
+                        <TextView
+                            android:id="@+id/sc2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dim_10"
+                            android:layout_marginLeft="@dimen/dim_10"
+
+                            android:layout_marginRight="5dp"
+                            android:text="Achieve your career goals with our cutting-edge degree programs in collaboration with top universities."
+                            android:textColor="@color/white"></TextView>
+
+                        <TextView
+                            android:id="@+id/sc4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dim_10"
+                            android:layout_marginLeft="@dimen/dim_10"
+                            android:text="@string/view_more"
+                            android:textColor="@color/white"></TextView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim_300"
+                    android:backgroundTint="@color/orange"
+                    app:cardBackgroundColor="@color/orange"
+                    app:cardCornerRadius="4dp">
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:id="@+id/image_slider"
+                        android:layout_width="@dimen/dim_350"
+                        android:layout_height="@dimen/dim_250"
+                        android:layout_gravity="center"
+                        app:iss_auto_cycle="true"
+                        app:iss_delay="1000"
+                        app:iss_period="1000"
+                        app:iss_text_align="CENTER" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim_500"
+                    android:backgroundTint="#0D1F39"
+                    app:cardBackgroundColor="#0D1F39"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dim_10"
+                        android:layout_marginTop="@dimen/dim_50"
+                        android:text="Trending\nCategories"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dim_30">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dim_10"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="@dimen/dim_20"
+                        android:text=" BROWSE TOP"
+                        android:textColor="@color/orange"
+                        android:textSize="@dimen/dim_15">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dim_10"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="@dimen/dim_20"
+                        android:text="|"
+                        android:textColor="@color/colorTransparentWhite"
+                        android:textSize="@dimen/dim_15">
+
+                    </TextView>
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:id="@+id/image_slider2"
+                        android:layout_width="@dimen/dim_350"
+                        android:layout_height="@dimen/dim_250"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        app:iss_auto_cycle="true"
+                        app:iss_delay="1000"
+                        app:iss_period="1000"
+                        app:iss_text_align="CENTER" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/green"
+                    app:cardBackgroundColor="#0D1F39"
+                    app:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginTop="20dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxWidth="@dimen/dim_200"
+                                android:text="589"
+                                android:textColor="@color/white"
+                                android:textSize="50sp">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxWidth="@dimen/dim_200"
+                                android:text="Creative Events"
+                                android:textColor="@color/white"
+                                android:textSize="20sp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+
+                            android:layout_marginTop="20dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxWidth="@dimen/dim_200"
+                                android:text="147"
+                                android:textColor="@color/white"
+                                android:textSize="50sp">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxWidth="@dimen/dim_200"
+                                android:text="Skilled Tutors"
+                                android:textColor="@color/white"
+                                android:textSize="20sp">
+
+                            </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="150dp"
+
+                            android:layout_marginBottom="20dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxWidth="@dimen/dim_200"
+                                android:text="9k+"
+                                android:textColor="@color/white"
+                                android:textSize="50sp">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxWidth="@dimen/dim_200"
+                                android:text="Online Courses"
+                                android:textColor="@color/white"
+                                android:textSize="20sp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="150dp"
+
+                            android:layout_marginBottom="20dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxWidth="@dimen/dim_200"
+                                android:text="23k+"
+                                android:textColor="@color/white"
+                                android:textSize="50sp">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxWidth="@dimen/dim_200"
+                                android:maxLines="1"
+                                android:text="People Worldwide"
+                                android:textColor="@color/white"
+                                android:textSize="20sp">
+
+                            </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginStart="@dimen/dim_10"
+                                android:layout_marginTop="@dimen/dim_10"
+                                android:text="Read Our Blog"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/dim_30"
+                                android:textStyle="bold">
+
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/blogview"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginTop="1dp"
+                                android:backgroundTint="@color/orange"
+                                android:text="View All"></Button>
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dim_300"
+                        android:layout_marginBottom="80dp"
+                        android:backgroundTint="@color/white"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="4dp">
+
+                        <com.denzcoskun.imageslider.ImageSlider
+
+                            android:id="@+id/image_slider4"
+                            android:layout_width="@dimen/dim_350"
+                            android:layout_height="@dimen/dim_250"
+                            android:layout_gravity="center"
+                            app:iss_auto_cycle="true"
+                            app:iss_delay="1000"
+                            app:iss_period="1000"
+                            app:iss_text_align="CENTER" />
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            style="@style/Widget.Material3.BottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:fitsSystemWindows="true"
+            app:itemIconTint="@drawable/icon_selector"
+            app:itemRippleColor="@color/orange"
+            app:labelVisibilityMode="labeled"
+            app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior"
+            app:menu="@menu/menu_items" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

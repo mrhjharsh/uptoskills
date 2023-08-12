@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_gravity="bottom"
+                    android:src="@drawable/baseline_keyboard_arrow_left_24"
+                    android:layout_marginBottom="@dimen/dim_20"
+                    android:layout_width="@dimen/dim_30"
+                    android:layout_height="@dimen/dim_50">
+                </ImageView>
+
+                <ImageView
+                    android:src="@drawable/uptoskills_logo"
+                    android:layout_marginBottom="@dimen/dim_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dim_50">
+                </ImageView>
+
+            </LinearLayout>
+
+            <TextView
+                android:textStyle="bold"
+                android:text="Create an Online Video
+Course &amp; Earn Money by Teaching"
+                android:textSize="25sp"
+                android:layout_marginTop="@dimen/dim_60"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/dim_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <LinearLayout
+                android:layout_marginTop="@dimen/dim_150"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/s1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim_300">
+
+                </ImageView>
+                <ImageView
+                    android:src="@drawable/s2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim_300">
+
+                </ImageView>
+                <ImageView
+                    android:src="@drawable/s3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim_300">
+
+                </ImageView>
+                <ImageView
+                    android:src="@drawable/s4"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/dim_800"
+                    android:layout_height="@dimen/dim_400">
+
+                </ImageView>
+          <ImageView
+                    android:src="@drawable/s6"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/dim_500"
+                    android:layout_height="@dimen/dim_400">
+
+                </ImageView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/orange"
+                    android:layout_height="@dimen/dim_300"
+                    app:cardBackgroundColor="@color/orange"
+                    app:cardCornerRadius="4dp"
+                    >
+                    <com.denzcoskun.imageslider.ImageSlider
+
+                        android:layout_gravity="center"
+                        android:id="@+id/image_slider2"
+                        android:layout_width="@dimen/dim_350"
+                        android:layout_height="@dimen/dim_250"
+                        app:iss_auto_cycle="true"
+                        app:iss_period="1000"
+                        app:iss_delay="1000"
+                        app:iss_text_align="CENTER"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

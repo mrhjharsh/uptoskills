@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".blog_view">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_gravity="bottom"
+                android:src="@drawable/baseline_keyboard_arrow_left_24"
+                android:layout_marginBottom="@dimen/dim_20"
+                android:layout_width="@dimen/dim_30"
+                android:layout_height="@dimen/dim_50">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/uptoskills_logo"
+                android:layout_marginBottom="@dimen/dim_20"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dim_50">
+            </ImageView>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp">
+        </TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+        <RelativeLayout
+            android:layout_marginBottom="@dimen/dim_20"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dim_20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/prev"
+                android:drawableLeft="@drawable/baseline_keyboard_arrow_left_24"
+                android:text="PREVIOUS PAGE"
+                android:background="@drawable/customborder2"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:text="NEXT PAGE"
+                android:id="@+id/next"
+                android:background="@drawable/customborder2"
+
+                android:layout_marginRight="10dp"
+                android:layout_alignParentEnd="true"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
